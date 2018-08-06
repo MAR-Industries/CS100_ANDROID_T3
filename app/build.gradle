@@ -40,4 +40,9 @@ dependencies {
 
     // Displaying images
     compile 'com.github.bumptech.glide:glide:3.6.1'
+
+    //compile 'com.google.firebase:firebase-core'
+    compile 'com.google.firebase:firebase-database:16.0.1'
 }
+//more firebase shizen
+apply plugin: 'com.google.gms.google-services'
